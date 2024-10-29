@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    color: #333;
+}
+
+.bid-bazaar-after::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    height: 4px;
+    background: linear-gradient(to right, #4ED493, #4bc1b2);
+
+  }
+
+  .glow-effect {
+    text-shadow: 0 0 10px #4ED493, 0 0 20px #4ED493, 0 0 30px #4ED493, 0 0 40px #4ED493;
+  }
+  
